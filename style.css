@@ -400,14 +400,14 @@ img {
 }
 
 .stats-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
     text-align: center;
 }
 
 .stat-item {
-    margin: 20px;
+    padding: 10px;
 }
 
 .stat-item .count {
@@ -598,7 +598,8 @@ footer {
     }
     
     .about-container,
-    .contact-wrapper {
+    .contact-wrapper,
+    .stats-container {
         grid-template-columns: 1fr;
     }
     
