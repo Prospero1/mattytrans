@@ -598,9 +598,13 @@ footer {
     }
     
     .about-container,
-    .contact-wrapper,
-    .stats-container {
+    .contact-wrapper {
         grid-template-columns: 1fr;
+    }
+
+    .stats-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
     }
     
     .about-image {
