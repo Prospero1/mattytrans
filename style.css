@@ -229,7 +229,7 @@ img {
     z-index: 1;
     color: var(--white);
     max-width: 600px;
-    text-align: left;
+    text-align: center;
     margin-left: 5%;
     padding-top: 50px;
 }
