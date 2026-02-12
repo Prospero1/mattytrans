@@ -623,6 +623,20 @@ footer {
         order: -1;
     }
 
+    /* Mobile contact info adjustments */
+    .contact-info {
+        padding: 20px;
+    }
+
+    .info-item p {
+        font-size: 14px;
+        white-space: nowrap; /* Try to keep text in one line */
+    }
+
+    .info-item i {
+        margin-right: 15px;
+    }
+
     /* Fix hero content for mobile */
     .hero-content {
         margin-left: 0;
